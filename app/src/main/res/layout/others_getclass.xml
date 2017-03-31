@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:layout_weight="0.22">
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="  三维动画制作基础\n  选修课\n  2.5学分"
+                    android:background="#ffeff1f0"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#208e27"
+                    android:text="已完成"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFFFF"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:layout_weight="0.22">
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="  高级数据库技术\n  选修课\n  2.0学分"
+                    android:background="#ffeff1f0"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#aaa"
+                    android:text="未完成"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFFFF"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="65dp"
+                android:layout_weight="0.22">
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="  人工智能导论\n  选修课\n  3.0学分"
+                    android:background="#ffeff1f0"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#aaa"
+                    android:text="未完成"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFFFF"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:gravity="center_horizontal|center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal|center_vertical">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="#FFFFFFFF"
+            android:text="开始"
+            android:textSize="30dp"
+            android:background="#208e27"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

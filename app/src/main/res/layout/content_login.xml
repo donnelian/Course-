@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeff1f0"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#208e27"
+        android:orientation="vertical"
+        android:layout_weight="0.24">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+           >
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="123dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            android:id="@id/drawer_layout"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <include
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="130dip"
+            layout="@layout/input_layout" />
+
+        <include
+            android:id="@+id/layout_progress"
+            android:layout_width="match_parent"
+            android:layout_height="130dip"
+            layout="@layout/layout_progress"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_layout"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="10dip"
+            android:paddingLeft="130dip"
+            android:paddingRight="130dip"
+            android:paddingTop="10dip"
+            android:text="Login"
+            android:textColor="#208e27"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center_horizontal|center_vertical">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:background="#00000000"
+            android:text="注册账号"
+            android:textColor="#aaa"
+            android:textSize="15dp"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:background="#00000000"
+            android:text="忘记密码"
+            android:textColor="#aaa"
+            android:textSize="15dp"/>
+    </LinearLayout>
+</LinearLayout>

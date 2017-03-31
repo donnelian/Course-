@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFeff1f0"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:background="#FFFFFFFF"
+        android:layout_height="50dp"
+        android:text="   用户账号设置"
+        android:textSize="20dp"
+        android:gravity="left|center_vertical"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#FFFFFFFF"
+            android:layout_height="50dp"
+            android:text="   校园网账号设置"
+            android:textSize="20dp"
+            android:gravity="left|center_vertical"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="20dp"
+            android:text="ABOUT"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#FFFFFFFF"
+            android:layout_height="50dp"
+            android:text="   用户反馈"
+            android:textSize="20dp"
+            android:gravity="left|center_vertical"/>
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>

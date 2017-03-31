@@ -1,0 +1,78 @@
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFeff1f0"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.myapplication.SettingsActivity"
+    tools:showIn="@layout/app_bar_settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:background="#FFFFFFFF"
+            android:id="@+id/btnlogin"
+            android:layout_height="50dp"
+            android:text="   用户登陆"
+            android:textSize="20dp"
+            android:gravity="left|center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/logout"
+            android:background="#FFFFFFFF"
+            android:layout_height="50dp"
+            android:text="   用户注销"
+            android:textSize="20dp"
+            android:gravity="left|center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnStuNumSettings"
+            android:background="#FFFFFFFF"
+            android:layout_height="50dp"
+            android:text="   教务网账号设置"
+            android:textSize="20dp"
+            android:gravity="left|center_vertical"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="left|center_vertical"
+            android:textSize="20dp"
+            android:text="ABOUT"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#FFFFFFFF"
+            android:layout_height="50dp"
+            android:text="   用户反馈"
+            android:textSize="20dp"
+            android:gravity="left|center_vertical"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

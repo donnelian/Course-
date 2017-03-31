@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.AddTaskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="  编辑题目:"
+            android:textSize="20dp"
+            android:textColor="#FFFFFFFF"
+            android:background="#208e27"
+            android:layout_height="30dp"
+            />
+        <EditText
+            android:id="@+id/etAddTaskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text=" "
+            android:textSize="30dp"
+            android:textColor="#FFFFFFFF"
+            android:background="#208e27" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:text="  编辑内容:"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:background="#ffeff1f0"
+            android:layout_height="40dp"
+            />
+        <EditText
+            android:id="@+id/etAddTaskContent"
+            android:layout_width="match_parent"
+            android:background="#ffeff1f0"
+            android:gravity="left|top"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_height="280dp"
+            android:layout_weight="0.76" />
+
+        <Button
+            android:id="@+id/btnAddTaskFinish"
+            android:layout_marginTop="15dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="130dip"
+            android:paddingRight="130dip"
+            android:paddingTop="10dip"
+            android:text="完成"
+            android:textColor="#FFFFFFFF"
+            android:background="#208e27"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52" />
+    </LinearLayout>
+
+</LinearLayout>
